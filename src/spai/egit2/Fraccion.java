@@ -73,8 +73,7 @@ public class Fraccion {
 	}
 
 	public double decimalTriple() {
-		// TODO Auto-generated method stub
-		return 0;
+		return (double) (numerador * 3.0 / denominador);
 	}
 
 	public double decimalCuadruple() {
