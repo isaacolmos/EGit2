@@ -32,8 +32,7 @@ public class NumeroEntero {
 	}
 
 	public void cuadruplicar() {
-		// TODO Auto-generated method stub
-
+		this.setValor(this.valor * 4);
 	}
 
 }
