@@ -68,8 +68,7 @@ public class Fraccion {
 	}
 
 	public double decimalDoble() {
-		// TODO Auto-generated method stub
-		return 0;
+		return (double) (numerador / denominador) * 2;
 	}
 
 	public double decimalTriple() {
