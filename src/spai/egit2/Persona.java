@@ -41,7 +41,7 @@ public class Persona {
 	}
 
 	public String nombreCompleto2() {
-		return null;
-	}
+        return this.apellido + "," + this.nombre;
+    }
 
 }
