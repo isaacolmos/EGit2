@@ -68,7 +68,7 @@ public class Fraccion {
 	}
 
 	public double decimalDoble() {
-		return (double) (numerador / denominador) * 2;
+		return (double) (numerador * 2.0 / denominador) ;
 	}
 
 	public double decimalTriple() {
@@ -76,8 +76,7 @@ public class Fraccion {
 	}
 
 	public double decimalCuadruple() {
-		// TODO Auto-generated method stub
-		return 0;
+		return (double) (numerador * 4.0 / denominador) ;
 	}
 
 }
