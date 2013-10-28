@@ -20,6 +20,11 @@ public class ColeccionDecimalesTest {
     public void testSuma() {
         assertEquals(5.8, this.numeros.suma(), 1e-10);
     }
+    
+    @Test
+    public void testSumaDoble() {
+        assertEquals(11.6, this.numeros.sumaDoble(), 1e-10);
+    }
 
     @Test
     public void testMayor() {
