@@ -35,7 +35,7 @@ classpathref="classpath.test" />
 <batchtest fork="yes" >
 <formatter type="brief" usefile="false" />
 <fileset dir="${test}">
-<include name="**/SumaTest.java" />
+ <include name="**/AllEgit2Tests.java" />
 <!-- <include name="**/*Test*.java" /> -->
 </fileset>
 </batchtest>
