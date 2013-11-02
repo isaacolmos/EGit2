@@ -1,2 +1,2 @@
-1. language: java
-2. script: ant test
+language: java
+script: ant test
